@@ -12,6 +12,7 @@ git clone https://github.com/MalcolmRobb/dump1090.git /home/pi/projects/dump1090
 cd /home/pi/projects/dump1090
 make &>> $pblog
 
+
 echo "********** VirtualRadar download and start" >> $pblog
 mkdir -p /home/pi/projects/VirtualRadar/preview
 cd /home/pi/projects/VirtualRadar/preview
