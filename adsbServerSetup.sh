@@ -7,7 +7,7 @@ sudo apt-get update
 sudo DEBIAN_FRONTEND=noninteractive apt-get -o Dpkg::Options::="--force-confnew" -y dist-upgrade
 
 echo "********** install prerequisite packages"
-sudo apt-get install mono-complete rtl-sdr librtlsdr-dev libusb-1.0-0-dev
+sudo apt-get -y install mono-complete rtl-sdr librtlsdr-dev libusb-1.0-0-dev
 
 echo "********** dump1090 download and build"
 git clone https://github.com/MalcolmRobb/dump1090.git /home/pi/projects/dump1090
